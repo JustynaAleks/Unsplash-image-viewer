@@ -17,21 +17,6 @@ function Sections() {
     return (<div>Loading ... </div>)
   }
 
-  
-  
-  /*const [data, setData] = useState([]) // tutaj przechowywane są dane z fetch
-
-  useEffect(function () {
-    fetch(
-      `${UNSPLASH_BASE_URL}${API_PATHNAME}`,
-      {
-        headers: UNSPLASH_COMMON_HEADERS
-      }
-    )
-    .then(response => response.json())
-    .then(data => setData(data)) //data jest parametrem funkcji, to jest co innego niz data wyżej.
-  }, [])*/
-
 
 
   return (
