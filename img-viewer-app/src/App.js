@@ -3,10 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import PhotoList from './pages/PhotoList';
 import Photo from './pages/Photo';
-
-import { Component, useState, useEffect } from 'react';
-import { Routes, Route, useParams } from 'react-router';
-import { Link } from "react-router-dom";
+import { Routes, Route } from 'react-router';
 
 
 function App() {
